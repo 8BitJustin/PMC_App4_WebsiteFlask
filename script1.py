@@ -4,7 +4,6 @@ app = Flask(__name__)
 
 
 @app.route('/')
-
 def home():
     return "Content goes here!"
 
